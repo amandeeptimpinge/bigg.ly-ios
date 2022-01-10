@@ -1,0 +1,6 @@
+framework module Pods_Bigg_lyTests {
+  umbrella header "Pods-Bigg.lyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
