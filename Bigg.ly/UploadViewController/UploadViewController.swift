@@ -330,7 +330,7 @@ class UploadViewController: UIViewController, UITextFieldDelegate {
             }catch let e{
                 //Your errors
             }
-                        
+            
             DispatchQueue.global(qos: DispatchQoS.QoSClass.userInitiated).sync {
                 let session = URLSession.shared
                 let task = session.dataTask(with: request, completionHandler: { (dataS, aResponse, error) in
@@ -350,7 +350,7 @@ class UploadViewController: UIViewController, UITextFieldDelegate {
             }
         }
     }
-    
+        
     var backgroundTask: UIBackgroundTaskIdentifier = .invalid
     func registerBackgroundTask() {
       backgroundTask = UIApplication.shared.beginBackgroundTask { [weak self] in
