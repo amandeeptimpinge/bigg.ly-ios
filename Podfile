@@ -9,8 +9,8 @@ target 'Bigg.ly' do
 
 
 pod 'IQKeyboardManagerSwift'
-pod 'Alamofire' , '4.9.1'
-
+pod 'Alamofire', '~> 4.0'
+pod 'KDCircularProgress'
 pod 'Toast-Swift'
 
   target 'Bigg.lyTests' do

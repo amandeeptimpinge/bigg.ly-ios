@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.6)
+  - KDCircularProgress (1.5.4)
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
-  - Alamofire (= 4.9.1)
+  - Alamofire (~> 4.0)
   - IQKeyboardManagerSwift
+  - KDCircularProgress
   - Toast-Swift
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - IQKeyboardManagerSwift
+    - KDCircularProgress
     - Toast-Swift
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 78ca5240bf5dbf30f34f884c70963f94e86e9e1c
+PODFILE CHECKSUM: f63d88a21039743b112d10d9223482fa3f430a53
 
-COCOAPODS: 1.11.0
+COCOAPODS: 1.11.2

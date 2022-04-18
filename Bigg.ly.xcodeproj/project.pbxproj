@@ -10,7 +10,8 @@
 		2D3AC579D2D5382EDA2C0BF1 /* Pods_Bigg_ly_Bigg_lyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B45028AA1CB67C05FC3197 /* Pods_Bigg_ly_Bigg_lyUITests.framework */; };
 		435269177EDDDB51A383FFDE /* Pods_Bigg_ly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BB46CCB1E65159CD5F7AF4 /* Pods_Bigg_ly.framework */; };
 		74E000626456E68E1854B1D9 /* Pods_Bigg_lyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30981EC5E68F8F8FBBAF181E /* Pods_Bigg_lyTests.framework */; };
-		DD77681627450DCD00C26805 /* UploadVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77681527450DCD00C26805 /* UploadVM.swift */; };
+		79470BDB27B278F600D066CA /* Uploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79470BDA27B278F600D066CA /* Uploader.swift */; };
+		79F6430727D1F4A600AD2C88 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6430627D1F4A600AD2C88 /* Utilities.swift */; };
 		DD7C8CA7273D26C100E45340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C8CA6273D26C100E45340 /* AppDelegate.swift */; };
 		DD7C8CA9273D26C100E45340 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C8CA8273D26C100E45340 /* SceneDelegate.swift */; };
 		DD7C8CAB273D26C100E45340 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C8CAA273D26C100E45340 /* UploadViewController.swift */; };
@@ -39,15 +40,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7924CCBD279E8C400085A49B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		30981EC5E68F8F8FBBAF181E /* Pods_Bigg_lyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bigg_lyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0E3DBA33AE01FFDFB1347F /* Pods-Bigg.ly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigg.ly.debug.xcconfig"; path = "Target Support Files/Pods-Bigg.ly/Pods-Bigg.ly.debug.xcconfig"; sourceTree = "<group>"; };
 		56E841ED97B7903917C9A6D1 /* Pods-Bigg.lyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigg.lyTests.release.xcconfig"; path = "Target Support Files/Pods-Bigg.lyTests/Pods-Bigg.lyTests.release.xcconfig"; sourceTree = "<group>"; };
 		65201CD439D7537A4336B3BB /* Pods-Bigg.lyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigg.lyTests.debug.xcconfig"; path = "Target Support Files/Pods-Bigg.lyTests/Pods-Bigg.lyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79470BDA27B278F600D066CA /* Uploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uploader.swift; sourceTree = "<group>"; };
+		79F6430627D1F4A600AD2C88 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		9338A7AC2A70C0AC1C938599 /* Pods-Bigg.ly-Bigg.lyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigg.ly-Bigg.lyUITests.release.xcconfig"; path = "Target Support Files/Pods-Bigg.ly-Bigg.lyUITests/Pods-Bigg.ly-Bigg.lyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B47DBE361258DAD179930AA4 /* Pods-Bigg.ly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigg.ly.release.xcconfig"; path = "Target Support Files/Pods-Bigg.ly/Pods-Bigg.ly.release.xcconfig"; sourceTree = "<group>"; };
 		B8B45028AA1CB67C05FC3197 /* Pods_Bigg_ly_Bigg_lyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bigg_ly_Bigg_lyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD77681527450DCD00C26805 /* UploadVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVM.swift; sourceTree = "<group>"; };
 		DD7C8CA3273D26C100E45340 /* Bigg.ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigg.ly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7C8CA6273D26C100E45340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD7C8CA8273D26C100E45340 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +123,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7932038927D922EC006DFECB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C8CAC273D26C100E45340 /* Main.storyboard */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		CA757A1ACBC2A8B0F408B5A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,13 +166,14 @@
 		DD7C8CA5273D26C100E45340 /* Bigg.ly */ = {
 			isa = PBXGroup;
 			children = (
+				7932038927D922EC006DFECB /* New Group */,
 				DD7C8CA6273D26C100E45340 /* AppDelegate.swift */,
 				DD7C8CA8273D26C100E45340 /* SceneDelegate.swift */,
 				DD7C8CD6273D5A5700E45340 /* UploadViewController */,
-				DD7C8CAC273D26C100E45340 /* Main.storyboard */,
 				DD7C8CAF273D26C400E45340 /* Assets.xcassets */,
 				DD7C8CB1273D26C400E45340 /* LaunchScreen.storyboard */,
 				DD7C8CB4273D26C400E45340 /* Info.plist */,
+				79470BDA27B278F600D066CA /* Uploader.swift */,
 			);
 			path = Bigg.ly;
 			sourceTree = "<group>";
@@ -176,8 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				DD7C8CAA273D26C100E45340 /* UploadViewController.swift */,
-				DD77681527450DCD00C26805 /* UploadVM.swift */,
 				DD84857C2771D8F90020DD31 /* UploadTVC.swift */,
+				79F6430627D1F4A600AD2C88 /* Utilities.swift */,
 			);
 			path = UploadViewController;
 			sourceTree = "<group>";
@@ -194,6 +218,7 @@
 				DD7C8CA0273D26C100E45340 /* Frameworks */,
 				DD7C8CA1273D26C100E45340 /* Resources */,
 				9464D4A5882E32EF14E1BA67 /* [CP] Embed Pods Frameworks */,
+				7924CCBD279E8C400085A49B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -249,7 +274,7 @@
 		DD7C8C9B273D26C100E45340 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					DD7C8CA2273D26C100E45340 = {
@@ -422,7 +447,8 @@
 			files = (
 				DD7C8CAB273D26C100E45340 /* UploadViewController.swift in Sources */,
 				DD84857D2771D8F90020DD31 /* UploadTVC.swift in Sources */,
-				DD77681627450DCD00C26805 /* UploadVM.swift in Sources */,
+				79F6430727D1F4A600AD2C88 /* Utilities.swift in Sources */,
+				79470BDB27B278F600D066CA /* Uploader.swift in Sources */,
 				DD7C8CA7273D26C100E45340 /* AppDelegate.swift in Sources */,
 				DD7C8CA9273D26C100E45340 /* SceneDelegate.swift in Sources */,
 			);
@@ -601,15 +627,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9R3975WXE;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bigg.ly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Bigg-ly";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.impingesolutions.Bigg-ly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -621,15 +651,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9R3975WXE;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bigg.ly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Bigg-ly";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.impingesolutions.Bigg-ly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
